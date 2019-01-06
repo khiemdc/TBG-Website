@@ -70,7 +70,30 @@
     letter-spacing:4px;
     // text-transform:uppercase;
 }
-  
+
+.card-image {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.card-image:hover {
+	-webkit-transform: scale(1.025);
+	transform: scale(1.025);
+}
+
+.rgba-black-strong {
+    opacity: .8;
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.rgba-black-strong:hover {
+	opacity: 1;
+}
+
+
   .ptext .border{
     background-color:#111;
     color:#fff;
